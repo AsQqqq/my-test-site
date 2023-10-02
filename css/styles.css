@@ -1,0 +1,124 @@
+html, body {
+    font-family: 'Lato', sans-serif;
+    color: #424551;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button {
+    font-weight: 700;
+    padding: 0 40px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 52px;
+    border-radius: 4px;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    white-space: nowrap;
+    transition: 0.5s;
+    
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+#LogoType {
+    font-weight: 400;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+#LogoType:hover {
+    transform: scale(1.05);
+    color: #FF3F3A;
+}
+
+/* --------------------------------------------------------- */
+
+.header {
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 40px;
+}
+
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+
+.header__logo {
+    margin-right: 60px;
+}
+
+.header__nav-link {
+    line-height: 160%;
+    color: #424551;
+    white-space: nowrap;
+    transition: color 0.5s;
+}
+
+.header__nav-link:hover {
+    color: #FF3F3A;
+}
+
+.header__btn-box {
+    display: flex;
+    align-items: center;
+}
+
+.header__user-nav {
+    position: relative;
+    padding-left: 28px;
+}
+
+.header__user-nav::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: block;
+    background: url("../image/user-logo.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.header__user-btn {
+    white-space: nowrap;
+    line-height: 1.6;
+    transition: color 0.5s;
+}
+
+.header__user-btn:hover {
+    color: #FF3F3A;
+}
+
+.header__top-btn {
+    margin-right: 36px;
+}
